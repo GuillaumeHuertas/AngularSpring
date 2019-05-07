@@ -1,0 +1,10 @@
+  <form>
+        <label for="name">Nom:</label>
+        <input type="text" [(ngModel)]="user.name" placeholder="Nom" name="name" class="form-control" id="name" />
+        <label for="designation">Designation:</label>
+        <input [(ngModel)]="user.designation" placeholder="Désignation" name="designation" class="form-control"
+          id="designation" />
+        <label for="salary">Salaire:</label>
+        <input [(ngModel)]="user.salary" placeholder="Salaire" name="salary" class="form-control" id="salary" />
+      <button class="btn btn-success" (click)="updateEmployee()">Modifier</button>
+  </form>

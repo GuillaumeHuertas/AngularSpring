@@ -1,0 +1,9 @@
+#separHeadFoot{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    min-width: 100%;
+}
+
+button{
+    margin-right:8px;
+}

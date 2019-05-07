@@ -1,0 +1,17 @@
+#divDial{
+    background-color: #212529;
+    color: antiquewhite;
+    border: solid;
+    border-color: antiquewhite;
+    border-radius: 10px;
+    position: fixed;
+    top: 150px;
+    left: 20%;
+    max-width: 1000px;
+    min-width: 500px;
+    min-height: 350px;
+}
+button{
+    margin-left: 10px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,7 @@
+<div id="divDial">
+<mat-dialog-content>
+  <h2>Modification de {{name}}</h2>
+  <app-update-employee selectedEmployeeId={{id}} selectedEmployeeName={{name}} selectedEmployeeDes={{designation}} selectedEmployeeSal={{salary}}></app-update-employee>
+  <button mat-button class="btn btn-danger" (click)="onNoClick()">Annuler</button>
+</mat-dialog-content>
+</div>

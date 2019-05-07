@@ -1,0 +1,18 @@
+.spaceDiv{
+    width: 10px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+a{
+    color: whitesmoke;
+}
+
+img{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
